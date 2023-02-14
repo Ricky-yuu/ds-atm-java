@@ -11,7 +11,7 @@ public class Data {
     this.name[0] = "Achmad Khalifah";
     this.id[0] = "alipsip";
     this.pin[0] = "123456";
-    this.number[0] = "0123456789";
+    this.number[0] = "123456789";
     this.balance[0] = 400000000;
 
     this.name[1] = "Rizdky Octa";
@@ -21,10 +21,22 @@ public class Data {
     this.balance[1] = 3000000;
 
     this.name[2] = "Ricky Aditya";
-    this.id[2] = "rick";
+    this.id[2] = "deadly";
     this.pin[2] = "654321";
-    this.number[2] = "0987654321";
+    this.number[2] = "987654321";
     this.balance[2] = 25690000;
+
+    this.name[3] = "Achmad Dinofaldi";
+    this.id[3] = "bangik";
+    this.pin[3] = "123456";
+    this.number[3] = "123457789";
+    this.balance[3] = 400000000;
+
+    this.name[4] = "Sulistyawati";
+    this.id[4] = "sul";
+    this.pin[4] = "112233";
+    this.number[4] = "1234557890";
+    this.balance[4] = 3000000;
   }
 
   public String getName(int i) {
