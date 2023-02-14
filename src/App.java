@@ -1,5 +1,10 @@
+import machine.Machine;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        while(true){
+            Machine machine = new Machine();
+            machine.welcome();
+        }
     }
 }
