@@ -1,9 +1,6 @@
 package Two;
-
 import java.util.ArrayList;
-
 public class ConcurrentTasksExample {
-
     public static void main(String[] args) {
         // Create a list to hold the tasks
         ArrayList<Runnable> tasks = new ArrayList<Runnable>();
