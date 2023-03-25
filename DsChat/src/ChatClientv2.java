@@ -47,7 +47,7 @@ public class ChatClientv2 {
   }
 
   public static void main(String[] args) throws IOException {
-    ChatClientv2 client = new ChatClientv2("localhost", 8080);
+    ChatClientv2 client = new ChatClientv2("localhost", 5999);
     client.start();
   }
 }
