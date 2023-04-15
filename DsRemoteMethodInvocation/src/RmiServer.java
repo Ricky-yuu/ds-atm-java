@@ -3,7 +3,7 @@ import java.rmi.registry.*;
 import java.rmi.server.*;
 import java.net.*;
 
-public class RmiServer extends java.rmi.server.UnicastRemoteObject implements ReceiveMessageInterface{
+public class RmiServer extends UnicastRemoteObject implements ReceiveMessageInterface{
   String address;
   Registry registry;
   
@@ -33,7 +33,7 @@ public class RmiServer extends java.rmi.server.UnicastRemoteObject implements Re
 
   public static void main(String args[]) {
     try {
-      RmiServer server = new RmiServer();
+      new RmiServer();
     } catch (Exception e) {
       System.out.println("Exception: " + e.getMessage());
       e.printStackTrace();
